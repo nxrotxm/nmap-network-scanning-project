@@ -44,7 +44,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 📷 Output:
 
-![Basic Scan](screenshots/basic-scan.png)
+![Basic Scan](screenshots/syn-scan.png)
 
 ---
 
@@ -79,7 +79,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 📷 Output:
 
-(Add screenshot)
+![Version Scan](screenshots/os-scan.png)
 
 ---
 
