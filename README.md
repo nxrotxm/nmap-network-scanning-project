@@ -9,7 +9,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 ## ⚙️ Lab Setup
 
 * Kali Linux (Attacker)
-* scanme.nmap.org (Target)
+* Metasploitable2 (Target)
 
 ---
 
