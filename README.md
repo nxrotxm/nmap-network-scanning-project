@@ -13,15 +13,17 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ---
 
-## 🧠 Chapter 1: Basic Scanning
+## 🧠 Chapter 1: Basic Commands for Scanning
 
-### 🔹 Command:
+### 🔹 Command 1 : basic scan/default scan
 
-nmap <target>
+nmap 192.168.198.129
 
 ### 📌 Description:
 
-Performs a basic scan to find open ports.
+- it's default scan of nmap.
+- it Performs a basic scan to find open ports.
+- it will scan top 1000 common ports and displays all open ports with running service with that port.
 
 ### 📷 Output:
 
