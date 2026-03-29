@@ -1,4 +1,4 @@
-# 🔍 Nmap Complete Guide (Beginner to Advanced)
+<img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/c2539701-2942-41f0-87c6-588a04aa1f7b" /># 🔍 Nmap Complete Guide (Beginner to Advanced)
 
 ## 📘 Introduction
 
@@ -15,15 +15,15 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ## 🧠 Chapter 1: Basic Commands for Scanning
 
-### 🔹 Command 1 : basic scan/default scan
+### 🔹 Command 1 : Basic scan/default scan
 
-nmap 192.168.198.129
+  ![Nmap](https://img.shields.io/badge/nmap-192.168.198.129-orange)
 
 ### 📌 Description:
 
-- it's default scan of nmap.
-- it Performs a basic scan to find open ports.
-- it will scan top 1000 common ports and displays all open ports with running service with that port.
+- Default scan of nmap.
+- Performs a basic scan to find open ports.
+- Scan top 1000 common ports and displays all open ports with running service with that port.
 
 ### 📷 Output:
 
@@ -31,31 +31,33 @@ nmap 192.168.198.129
 
 ---
 
-## 🧠 Chapter 2: Stealth Scan (SYN Scan)
+### 🔹 Command 2 : Stealth Scan (SYN Scan)
 
-### 🔹 Command:
-
-nmap -sS <target>
+![Nmap](https://img.shields.io/badge/nmap--sS-192.168.198.129-orange)
 
 ### 📌 Description:
 
-Performs a stealth scan that is less detectable.
+- Performs half-open scan and doesn't complete TCP hanshake
+- Performs a stealth scan that is less detectable.
+- More stealthy than basic scan.
+- Output will be the same as basic scan, displays all open ports with running service with that port.
 
 ### 📷 Output:
 
-(Add screenshot)
+![Basic Scan](screenshots/basic-scan.png)
 
 ---
 
-## 🧠 Chapter 3: Service Version Detection
+### 🔹 Command 3 : Service Version Detection
 
-### 🔹 Command:
-
-nmap -sV <target>
+![Nmap](https://img.shields.io/badge/nmap--sV-192.168.198.129-orange)
 
 ### 📌 Description:
 
-Detects services and their versions.
+- Performs basic scan with service version detection.
+- Scans 1000 common ports and service with service's version.
+- Attackers can find exploit based on service versions.
+- Outdated services can be vulnerable and can be exploited.
 
 ### 📷 Output:
 
