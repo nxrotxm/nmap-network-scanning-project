@@ -4,6 +4,8 @@
 
 Nmap (Network Mapper) is a powerful tool used for network discovery and security auditing.
 
+These are used in initial reconnaissance (beginner level)
+
 ---
 
 ## ⚙️ Lab Setup
@@ -22,7 +24,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 ### 📌 Description:
 
 - Default scan of nmap.
-- Performs a basic scan to find open ports.
+- Used to quickly identify open ports.
 - Scan top 1000 common ports and displays all open ports with running service with that port.
 
 ### 📷 Output:
@@ -30,6 +32,22 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 ![Basic Scan](screenshots/basic-scan.png)
 
 ---
+
+### 🔹 Command 2 : Multiple Target scan
+
+  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129%20192.168.198.2-red)
+
+### 📌 Description:
+
+- Scan multiple target with single command.
+- Used to quickly identify open ports for multiple target.
+
+### 📷 Output:
+
+![Multiple Target Scan](screenshots/basic-scan.png)
+
+---
+
 
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 
@@ -83,7 +101,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command 5 : Aggressive Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20-p%2080%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20--A%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -104,7 +122,7 @@ Performs OS detection, version detection, and script scanning.
   
 ### 📷 Output:
 
-
+![Specifi port Scan](screenshots/specific-port-scan.png)
 
 ### 🔹 Fast Scan:
 
