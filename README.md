@@ -48,7 +48,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ---
 
-### 🔹 Command 3 : Service Version Detection
+### 🔹 Command 3 : Service Version Detection scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20--sV%20192.168.198.129-red)
 
@@ -65,7 +65,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ---
 
-### 🔹 Command 4 : OS Detection
+### 🔹 Command 4 : OS Detection scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20--O%20192.168.198.129-red)
 
@@ -83,7 +83,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command 5 : Aggressive Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--A%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20-p%2080%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -91,15 +91,20 @@ Performs OS detection, version detection, and script scanning.
 
 ### 📷 Output:
 
-![Aggressive Scan](screenshots/agressive-scan5.png)
+![Aggressive Scan](screenshots/aggressive-scan.png)
 
 ---
 
-## 🧠 Chapter 6: Port Scanning Techniques
+### 🔹 Command 6 : Specific Port Scan
 
-### 🔹 Specific Ports:
+![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
 
-nmap -p 21,22,80 <target>
+- Displays only specified open port.
+- bellow is the example in screenshot.
+  
+### 📷 Output:
+
+![Specific port Scan](screenshots/aggressive-scan.png)
 
 ### 🔹 Fast Scan:
 
