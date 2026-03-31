@@ -27,7 +27,7 @@ These are used in initial reconnaissance (beginner level)
 
 ### 📷 Output:
 
-![Basic Scan](screenshots/basic-scan.png)
+![Basic Scan](screenshots/host-discovery-scan.png)
 
 ---
 
