@@ -17,6 +17,20 @@ These are used in initial reconnaissance (beginner level)
 
 ## 🧠 Chapter 1: Basic Commands for Scanning
 
+### 🔹 Command 1 : Host Discovery scan
+
+ ![Nmap](https://img.shields.io/badge/nmap%20--sn%20192.168.198.0/24-red)
+
+### 📌 Description:
+
+- scan entire network and display available hosts.
+
+### 📷 Output:
+
+![Basic Scan](screenshots/basic-scan.png)
+
+---
+
 ### 🔹 Command 1 : Basic scan/default scan
 
   ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129-red)
@@ -50,7 +64,7 @@ These are used in initial reconnaissance (beginner level)
 
 ### 🔹 Command 3 : Scan Entire Network
 
-  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129/24-red)
+  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.0/24-red)
 
 ### 📌 Description:
 
@@ -59,7 +73,7 @@ These are used in initial reconnaissance (beginner level)
 
 ### 📷 Output:
 
-![Basic Scan](screenshots/basic-scan.png)
+![Entire Network Scan](screenshots/entire-network-scan.png)
 
 ---
 
