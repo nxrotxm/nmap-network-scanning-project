@@ -109,7 +109,7 @@ These are used in initial reconnaissance (beginner level)
   
 ### 📷 Output:
 
-![Specifi port Scan](screenshots/multiple-port-scan.png)
+![Specifi port Scan](screenshots/all-port-scan.png)
 
 ---
 
