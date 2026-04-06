@@ -15,7 +15,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-## 🧠 Chapter 1: BASIC NMAP COMMANDS
+# 🧠 Chapter 1: BASIC NMAP COMMANDS
 
 ### 🔹 Command 1 : Host Discovery scan
 
@@ -189,7 +189,7 @@ These are used in initial reconnaissance (beginner level)
 ---
 
 
-## 🧠 Chapter 2: ADVANCED NMAP COMMANDS
+# 🧠 Chapter 2: ADVANCED NMAP COMMANDS
 
 Used in real penetration testing & deeper analysis.
 
