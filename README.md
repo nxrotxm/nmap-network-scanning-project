@@ -179,6 +179,7 @@ These are used in initial reconnaissance (beginner level)
 ### 📌 Description:
 
 - Saves scan results to a file.
+- There are more options to save output. XML use -oX, grapable use -oG and all at once use -oA.
 
 ### 📷 Output:
 
