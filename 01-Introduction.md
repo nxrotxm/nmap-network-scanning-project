@@ -53,7 +53,7 @@ Every penetration test follows a structured process:
 
 ---
 
-### 2️⃣ Scanning ✅ *(Your Focus)*
+### 2️⃣ Scanning
 - Find live hosts  
 - Identify open ports  
 - Detect services  
@@ -581,7 +581,7 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
-### 🔹 Command 10 : Aggressive Scan
+### 🔹 Command 12 : Vulnerability Script Scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20----script%20vuln%20192.168.198.129-red)
 
@@ -595,6 +595,28 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 ![Aggressive Scan](screenshots/vuln-script-scan.png)
 
 ---
+
+## 🔥 Types of Scripts
+
+- vuln → vulnerabilities
+- auth → authentication checks
+- brute → brute-force attempts
+
+---
+
+### 🔹 Command 13 : Packet Fragmentation Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--f%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs port scanning by sending fragmented packets.
+- It Bypasses simple firewalls.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/vuln-script-scan.png)
+
 
 
 
