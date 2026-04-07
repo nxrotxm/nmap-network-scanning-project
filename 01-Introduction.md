@@ -615,7 +615,92 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ### 📷 Output:
 
-![Aggressive Scan](screenshots/vuln-script-scan.png)
+![Aggressive Scan](screenshots/packet-fragment-scan.png)
+
+---
+
+### 🔹 Command 14 : Decoy Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--D%20RND:10%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs port scanning by sending fake IPs.
+- It hides your real IP.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/decoy-scan.png)
+
+---
+
+### 🔹 Command 15 : Source Port Manipulation Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20----source--port%2053%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs port scanning by sending packets from port 53.
+- Firewalls trust DNS traffic, so it will not block the packets.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/source-port-manipulation-scan.png)
+
+---
+
+# 🔥 There are also commands available for speed and performance tuning.
+
+- **nmap -T0 192.168.198.129**
+   - Sends packets very slowly.
+   - Avoid detection systems (IDS/IPS).
+   - Extremely stealthy.
+
+- **nmap -T1 192.168.198.129**
+   - Slightly faster than T0, still very slow.
+   - Stealth scanning with less time.
+   - Still avoids many detection systems.
+ 
+- **nmap -T2 192.168.198.129**
+   - Slows scan to reduce network load.
+   - When you don’t want to overload target.
+   - Good for stable and careful scanning.
+ 
+- **nmap -T3 192.168.198.129**
+   - Default timing.
+   - Balanced speed and accuracy.
+   - Safe choice if unsure.
+
+- **nmap -T4 192.168.198.129**
+   - Faster scanning.
+   - Faster results.
+   - Works well in lab/CTF.
+
+- **nmap -T5 192.168.198.129**
+   - Extremely fast.
+   - Very fast scans in controlled environments.
+   - Used only when speed matters more than accuracy.
+
+- **nmap--min-rate 1000 192.168.198.129**
+   - Send packets no slower than 1000 per second.
+
+- **nmap--max-retries 2 192.168.198.129**
+   - Caps number of port scan probe retransmissions.
+
+---
+
+### ⏱️ Timing Strategy
+- T0–T2 → Stealth scanning
+- T3 → Default
+- T4–T5 → Fast scanning
+
+---
+
+# 🔥 BEST COMMAND (You Should Use)
+
+## **nmap -sS -sV -T4 192.168.198.129**
+
+---
 
 
 
