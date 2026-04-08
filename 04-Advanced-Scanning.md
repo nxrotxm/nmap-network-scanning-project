@@ -30,7 +30,7 @@ Advanced scanning techniques help you:
 
 ## 🎯 Target Machine
 
-- Metasploitable2 IP (example): 192.168.198.129
+- Metasploitable2 IP (example) : 192.168.198.129
 
 ---
 
