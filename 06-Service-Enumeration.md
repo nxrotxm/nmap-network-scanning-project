@@ -41,7 +41,21 @@
 
 ### To perform enumaration, first it's neccessery to find open port and services running on it.
 
+### 🔹 Command 1 : Stealth Scan (SYN Scan) (Basic recon)
 
+![Nmap](https://img.shields.io/badge/nmap%20--sS%20192.168.198.129-red)
+
+### 📌 Description:
+
+- By running this command, all open ports and running services will be displayed as output.
+
+### 📷 Output:
+
+![Basic Scan](screenshots/syn-scan.png)
+
+---
+
+### 🎯 All open ports are listed above. The next step is to determine the versions of the associated services.
 
 ---
 
