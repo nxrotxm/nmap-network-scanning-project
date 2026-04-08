@@ -2,17 +2,6 @@
 
 ---
 
-## 🧠 Objective of This Chapter
-
-By the end of this chapter, you will be able to:
-
-- 🕵️ Perform stealthy scans  
-- 🔍 Detect services and operating systems  
-- ⚙️ Use advanced Nmap features  
-- 🛡️ Understand how to avoid detection  
-
----
-
 ## ⚡ Why Advanced Scanning Matters
 
 Basic scans are:
@@ -30,6 +19,18 @@ Advanced scanning techniques help you:
 - 🕶️ Stay hidden  
 - 🧠 Gather deeper information  
 - 🛡️ Bypass security defenses  
+
+---
+
+# ⚙️ Lab Setup
+
+## 🖥️ Attacker Machine
+
+- Kali Linux
+
+## 🎯 Target Machine
+
+- Metasploitable2 IP (example): 192.168.198.129
 
 ---
 
