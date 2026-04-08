@@ -1,10 +1,24 @@
-# 📘 Chapter 3 : Nmap Practical Scanning (Real Commands)
+# 📘 Chapter 3 : Basic Scanning Techniques
 
 ---
 
 ## ⚡ Introduction
 
 Now that you understand networking basics, it's time to **use Nmap in real scenarios**.
+
+---
+
+## 🔍 What is Basic Scanning
+
+### Basic scanning is not just running commands—it’s about:
+
+- Discovering targets
+- Mapping the network
+- Identifying entry points
+
+👉 This is your foundation for all attacks
+
+---
 
 🎯 Goal: Learn how to scan targets like a real penetration tester.
 
