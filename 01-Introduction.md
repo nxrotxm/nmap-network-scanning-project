@@ -1,4 +1,4 @@
-# 📘 Chapter 1: Introduction to Network Scanning & Ethical Hacking
+# 📘 Chapter 1 : Introduction to Network Scanning & Ethical Hacking
 
 ---
 
