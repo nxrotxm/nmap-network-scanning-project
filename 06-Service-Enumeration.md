@@ -39,6 +39,8 @@
 
 # let's start enumaration and exploits
 
+### To perform enumaration, first it's neccessery to find open port and services running on it.
+
 
 
 ---
